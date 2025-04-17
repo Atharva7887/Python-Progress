@@ -1,4 +1,5 @@
 #Functions
+a=1,b=2
 # Sorted function
 list1 = [3, 1, 4, 1, 5]
 sorted_list = sorted(list1)
