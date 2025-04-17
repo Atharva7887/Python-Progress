@@ -6,11 +6,6 @@ def multiply(x, y):
 
 # Importing from another file
 
-import math_utils
-
-print("Addition:", math_utils.add(5, 3))
-print("Multiplication:", math_utils.multiply(4, 2))
-
 # NumPy Basics
 import numpy as np
 
