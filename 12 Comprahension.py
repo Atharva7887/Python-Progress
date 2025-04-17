@@ -3,6 +3,17 @@
 squares = [x**2 for x in range(10)]
 print("List comprehension (squares):", squares)
 
+squares = [x**2 for x in range(10)]
+print("Squares:", squares)
+
+even_numbers = [x for x in range(20) if x % 2 == 0]
+print("Even numbers:", even_numbers)
+
+words = ["python", "rocks", "awesome"]
+capitalized = [word.upper() for word in words]
+print("Capitalized:", capitalized)
+
+
 # Dictionary comprehension
 squares_dict = {x: x**2 for x in range(10)}
 print("Dictionary comprehension (squares):", squares_dict)
