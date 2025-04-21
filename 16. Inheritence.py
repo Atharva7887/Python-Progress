@@ -1,4 +1,5 @@
-class employee:
+class employee: #Parent class
+    
     name="Atharva Shirke"
     company="Wripo PVT"
 
@@ -9,9 +10,9 @@ class employee:
         print(f"The name is {self.name} and salary is {self.salary}")
 
 
-class programer(employee): #Inherits from employee
+class programer(employee): #Inherits from employee, child class
+    #name="Atharva Shirke"
     
-
     def showlang(self, language):
         print(f"The name is {self.name} and he is good with {language}") 
 
