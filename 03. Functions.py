@@ -54,3 +54,14 @@ print("Length function:", length)
 # Type function
 type_value = type(list1)
 print("Type function:", type_value)
+
+# Calling a function vs object
+class MyClass:
+
+    def greet1(self, name):
+        self.name = name
+        print(f"Good morning {self.name}")
+
+a = MyClass()
+a.greet1("Atharva")      # Calls the function correctly
+print(a.name)            # Accesses the instance variable correctly

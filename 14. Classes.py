@@ -33,3 +33,13 @@ atharva=Employee()
 
 atharva.greet()
 atharva.getinfo()
+
+class MyClass:
+
+    def greet1(self, name):
+        self.name = name
+        print(f"Good morning {self.name}")
+
+a = MyClass()
+a.greet1("Atharva")      # Calls the function correctly
+print(a.name)            # Accesses the instance variable correctly
