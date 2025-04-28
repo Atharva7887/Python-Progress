@@ -11,3 +11,4 @@ class Employee:
 b=Employee()
 b.a=2
 b.show()
+b.show_static()
